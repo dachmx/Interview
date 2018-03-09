@@ -225,7 +225,7 @@ finalize() 类似 C++ 的析构函数，用来做关闭外部资源等工作。�
 
 ### 2.1 标记-清除算法
 
-<div align="center"> <img src="../pics//a4248c4b-6c1d-4fb8-a557-86da92d3a294.jpg"/> </div><br>
+<div align="center"> <img src="/pics//a4248c4b-6c1d-4fb8-a557-86da92d3a294.jpg"/> </div><br>
 
 将需要回收的对象进行标记，然后清除。
 
@@ -238,7 +238,7 @@ finalize() 类似 C++ 的析构函数，用来做关闭外部资源等工作。�
 
 ### 2.2 复制算法
 
-<div align="center"> <img src="../pics//e6b733ad-606d-4028-b3e8-83c3a73a3797.jpg"/> </div><br>
+<div align="center"> <img src="/pics//e6b733ad-606d-4028-b3e8-83c3a73a3797.jpg"/> </div><br>
 
 将内存划分为大小相等的两块，每次只使用其中一块，当这一块内存用完了就将还存活的对象复制到另一块上面，然后再把使用过的内存空间进行一次清理。
 
